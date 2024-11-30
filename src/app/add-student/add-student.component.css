@@ -1,0 +1,62 @@
+/* Form container styling */
+.form-container {
+    background-color: #f9f9f9; /* Light gray background */
+    width: 400px;
+    margin: 50px auto; /* Center the form horizontally and add space from top */
+    padding: 20px;
+    border: 2px solid #dcdcdc; /* Light border for better visibility */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for a modern look */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Form heading styling */
+  .form-container h2 {
+    text-align: center;
+    color: #2d3436; /* Dark gray color */
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Input field styling */
+  .form-container input[type="number"],
+  .form-container input[type="text"],
+  .form-container input[type="email"],
+  .form-container input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  /* Checkbox styling */
+  .form-container div {
+    margin-bottom: 15px;
+  }
+  
+  .form-container label {
+    margin-left: 5px;
+    font-size: 14px;
+    color: #2d3436;
+  }
+  
+  /* Button styling */
+  .form-container button {
+    background-color: #0984e3; /* Bright blue color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%; /* Button spans the form width */
+  }
+  
+  .form-container button:hover {
+    background-color: #74b9ff; /* Lighter blue for hover effect */
+  }
+  

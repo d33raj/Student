@@ -1,0 +1,99 @@
+/* General page background */
+body {
+    background: linear-gradient(to right, #f8c291, #6a89cc);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container for table and content */
+  .container {
+    max-width: 90%;
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Header */
+  .text-center {
+    text-align: center;
+    color: #2d3436;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Nav bar styling */
+  .nav-bar {
+    text-align: right;
+    margin-bottom: 15px;
+  }
+  
+  .add-student-btn {
+    text-decoration: none;
+    background: #6ab04c;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-student-btn:hover {
+    background: #45a049;
+  }
+  
+  /* Table styles */
+  .student-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: #f1f2f6;
+  }
+  
+  .student-table th,
+  .student-table td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #dcdde1;
+  }
+  
+  .student-table th {
+    background-color: #2d3436;
+    color: #fff;
+  }
+  
+  .student-table tr:hover {
+    background-color: #dcdde1;
+  }
+  
+  /* Buttons inside the table */
+  .delete-btn,
+  .update-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-btn {
+    background: #e74c3c;
+  }
+  
+  .delete-btn:hover {
+    background: #c0392b;
+  }
+  
+  .update-btn {
+    background: #3498db;
+  }
+  
+  .update-btn:hover {
+    background: #2980b9;
+  }
+  

@@ -1,0 +1,102 @@
+/* General page background */
+body {
+    background: linear-gradient(to right, #74b9ff, #81ecec);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Form container styling */
+form {
+    max-width: 400px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Input field styling */
+form input[type="number"],
+form input[type="text"],
+form input[type="email"],
+form input[type="date"]{
+    display: block;
+    width: calc(100% - 20px);
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #dcdde1;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+form input:focus {
+    outline: none;
+    border-color: #0984e3;
+    box-shadow: 0 0 5px rgba(9, 132, 227, 0.5);
+}
+
+/* Placeholder color */
+form input::placeholder {
+    color: #b2bec3;
+}
+
+/* Center the form heading */
+h2 {
+    text-align: center;
+    color: #2d3436;
+    margin-bottom: 6px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Button styling */
+form button {
+    display: block;
+    width: 100%;
+    background: #6c5ce7;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background: #5a4dbf;
+}
+
+/* Align the "IsMale" checkbox and label on the same line */
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 8px; /* Space between checkbox and label */
+}
+
+
+/* Form heading */
+form h2 {
+    text-align: center;
+    color: #2d3436;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Add some spacing between form elements */
+form br {
+    display: none; /* Remove unnecessary spacing created by <br> tags */
+}
